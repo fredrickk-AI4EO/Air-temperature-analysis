@@ -1,17 +1,15 @@
-# Air-temperature-analysis
+# Air Temperature Analysis
 
-This project analyzes air temperature data from the xarray tutorial dataset. It includes exploratory data analysis, spatial and temporal visualizations, and trend analysis.
+This is my analysis of air temperature data using xarray. I explored spatial patterns, seasonal averages, and added a trend line to the time series.
 
-## Structure
-- `code/`: Jupyter notebook with the analysis
-- `scripts/`: Python scripts for additional processing
-- `figures/`: Generated plots and visualizations
-- `data/`: Data files (if any)
-- `requirements.txt`: Python dependencies
+## What's in here
+- `code/air_temperature.ipynb`: The main notebook with plots
+- `scripts/xarray_analysis.py`: Extra scripts
+- `figures/`: Saved plots
+- `requirements.txt`: Libraries needed
 
-## Usage
-1. Install dependencies: `pip install -r requirements.txt`
-2. Run the notebook in `code/` or scripts in `scripts/`
+## How to use
+Install stuff with `pip install -r requirements.txt`, then run the notebook.
 
-## Results
-Key findings include seasonal temperature patterns and a linear trend in the time series.
+## Cool stuff I found
+Temperatures vary by season, and there's a slight upward trend over time.
